@@ -1,12 +1,7 @@
+import type { NextConfig } from "next";
 
-const nextConfig = {
-  output: 'standalone',
-  // Your other settings go here
-}
-
-module.exports = {
-  basePath: '/test',
-  assetPrefix: '/test/', // optional but helps with assets
-}
+const nextConfig: NextConfig = {
+  /* config options here */
+};
 
 export default nextConfig;

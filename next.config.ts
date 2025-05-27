@@ -4,6 +4,9 @@ const nextConfig = {
   // Your other settings go here
 }
 
-module.exports = nextConfig
+module.exports = {
+  basePath: '/test',
+  assetPrefix: '/test/', // optional but helps with assets
+}
 
 export default nextConfig;
